@@ -34,17 +34,6 @@ void loop(){
     servo.write(map(x, faceZeroValue, faceZeroValue + 8, reset, 0));
     }
 
-//    if (key == 'a'){
-//      digitalWrite(13, LOW);
-//       //servo.attach(9, 100, 150);
-//       servo.write(100);
-//    }
-//    if (key == 'b'){
-//     // servo.attach(9, 800, 544);
-//      //servo.detach();
-//      servo.write(180);
-//    }
-//
     if (key == 1){
       digitalWrite(13, HIGH); 
     }
