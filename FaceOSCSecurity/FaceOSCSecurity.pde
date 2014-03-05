@@ -61,12 +61,7 @@ void draw() {
     int MouthWidth = (int) mouthWidth + (int) mouthHeight;
     
     port.write(MouthWidth);
-    //    if (mouthWidth > 16 ){
-    //      port.write('a');
-    //    }
-    //    if (eyebrowRight > 9){
-    //     port.write('b'); 
-    //    }
+
   }
 }
 
